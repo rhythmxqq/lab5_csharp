@@ -71,14 +71,14 @@ class Program
     static void Main(string[] args)
     {
         StudentsNamespace.Student[] students = new StudentsNamespace.Student[3];
-        students[0] = new StudentsNamespace.Student("Иванов И.И.", 101, 20);
-        students[1] = new StudentsNamespace.Student("Петров П.П.", 102, 21);
-        students[2] = new StudentsNamespace.Student("Сидоров С.С.", 103, 19);
+        students[0] = new StudentsNamespace.Student("Степанов А.И.", 101, 20);
+        students[1] = new StudentsNamespace.Student("Сысуев П.Ф.", 102, 21);
+        students[2] = new StudentsNamespace.Student("Капчурин Н.С.", 103, 19);
 
         ReadersNamespace.Reader[] readers = new ReadersNamespace.Reader[3];
-        readers[0] = new ReadersNamespace.Reader("Иванов И.И.", 1001, "Исторический", new DateTime(1990, 1, 1), "123-45-67");
-        readers[1] = new ReadersNamespace.Reader("Петров П.П.", 1002, "Филологический", new DateTime(1995, 2, 2), "234-56-78");
-        readers[2] = new ReadersNamespace.Reader("Сидоров С.С.", 1003, "Юридический", new DateTime(2000, 3, 3), "345-67-89");
+        readers[0] = new ReadersNamespace.Reader("Степанов А.И.", 1001, "Исторический", new DateTime(1990, 1, 1), "123-45-67");
+        readers[1] = new ReadersNamespace.Reader("Сысуев П.Ф.", 1002, "Филологический", new DateTime(1995, 2, 2), "234-56-78");
+        readers[2] = new ReadersNamespace.Reader("Капчурин Н.С.", 1003, "Юридический", new DateTime(2000, 3, 3), "345-67-89");
 
         foreach (var student in students)
         {
